@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ma.ibrahimchahboune.salleoccupationqr.ui.home.HomeFragment"
+        android:label="@string/menu_salles"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ma.ibrahimchahboune.salleoccupationqr.ui.gallery.GalleryFragment"
+        android:label="@string/menu_book"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/History"
+        android:name="ma.ibrahimchahboune.salleoccupationqr.ui.history.HistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="ma.ibrahimchahboune.salleoccupationqr.ui.stats.StatsFragment"
+        android:label="@string/stats_1"
+        tools:layout="@layout/fragment_stats" />
+    <fragment
+        android:id="@+id/bookSalleByCreneau"
+        android:name="ma.ibrahimchahboune.salleoccupationqr.ui.booksallecreneau.bookSalleByCreneau"
+        android:label="@string/book_salle_by_creneau_2"
+        tools:layout="@layout/fragment_book_salle_by_creneau" />
+
+</navigation>

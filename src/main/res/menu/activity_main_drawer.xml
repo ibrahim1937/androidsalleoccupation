@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_school_24"
+            android:title="@string/menu_salles" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_bookmark_24"
+            android:title="@string/menu_book" />
+
+        <item
+            android:id="@+id/bookSalleByCreneau"
+            android:icon="@drawable/ic_baseline_bookmark_24"
+            android:title="@string/book_salle_by_creneau" />
+
+        <item
+            android:id="@+id/History"
+            android:icon="@drawable/ic_baseline_bookmark_24"
+            android:title="@string/nav_history" />
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_baseline_bookmark_24"
+            android:title="@string/stats" />
+
+
+
+
+    </group>
+</menu>
